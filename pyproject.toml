@@ -18,7 +18,7 @@ classifiers = [
 ]
 requires-python = ">=3.14"
 dependencies = [
-    "open-icu>=0.0.1",
+    "open-icu>=0.0.4",
 ]
 
 [project.urls]
