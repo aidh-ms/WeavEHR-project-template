@@ -852,7 +852,7 @@ wheels = [
 
 [[package]]
 name = "open-icu"
-version = "0.0.3"
+version = "0.0.4"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "meds" },
@@ -862,9 +862,9 @@ dependencies = [
     { name = "pyyaml" },
     { name = "types-pyyaml" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/49/fc/8a4d7592c63516e7badb57de11ee8ffefad5aa83ed6142b6aced95e84c73/open_icu-0.0.3.tar.gz", hash = "sha256:003401897944c6a761c69102784b1ced113c537d129929435732d7baab103a43", size = 77189, upload-time = "2026-06-26T20:47:41.307Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/73/53/a25d32b949121270fa88ac2acbfaf16ee1babb1c24829b717f32f63264ca/open_icu-0.0.4.tar.gz", hash = "sha256:46726ccf7808728d9499dac132df80ff817c7688cafb479e440fc831aa139ac6", size = 121127, upload-time = "2026-09-16T14:56:50.937Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/8a/0f/0bdeb7dccff556f68823b76781c289e0b57f34ba56e352331aad13bcc4f3/open_icu-0.0.3-py3-none-any.whl", hash = "sha256:64b2809906a5acdfb8351e59af70a09a5bf368e26671ed2e73609cd254639cf6", size = 243525, upload-time = "2026-06-26T20:47:39.917Z" },
+    { url = "https://files.pythonhosted.org/packages/9e/dc/bf80afc258a9ca16c3c0a5f78b56b3616e061856438a634ed4be6920412d/open_icu-0.0.4-py3-none-any.whl", hash = "sha256:00430f812d1e55f9182ed9f6b9574bd07db04f7ef67b8bfa08e43790eaeabc8d", size = 389823, upload-time = "2026-09-16T14:56:49.722Z" },
 ]
 
 [[package]]
@@ -959,7 +959,7 @@ dev = [
 ]
 
 [package.metadata]
-requires-dist = [{ name = "open-icu", specifier = ">=0.0.1" }]
+requires-dist = [{ name = "open-icu", specifier = ">=0.0.4" }]
 
 [package.metadata.requires-dev]
 dev = [
