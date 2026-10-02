@@ -1,15 +1,7 @@
-# OpenICU Project Template
+# WeavEHR Project Template
 
-This is a template for creating OpenICU projects. It includes a basic project structure, configuration files, and setup scripts to help you get started quickly.
+This is a template for creating [WeavEHR](https://github.com/aidh-ms/WeavEHR) projects. It includes a basic project structure, configuration files, and setup scripts to help you get started quickly.
 
-## Features
-
-- 📁 Pre-configured with [uv](https://docs.astral.sh/uv/) for dependency management.
-- 🪛 Linting with [ruff](https://docs.astral.sh/ruff/).
-- 🔧 Type checking with [ty](https://docs.astral.sh/ty/).
-- 📝 [Pre-commit](https://pre-commit.com/) hooks for code quality.
-- 📦 Uses [dev container](https://containers.dev/) development setup.
-- 🧰 Integrated with [GitHub](https://docs.github.com/en) Actions for CI/CD automation and other workflows.
 
 ## Getting Started
 
@@ -18,8 +10,8 @@ This is a template for creating OpenICU projects. It includes a basic project st
 
 1. **Clone the repository:**
     ```sh
-    git clone https://github.com/aidh-ms/openicu-project-template
-    cd openicu-project-template
+    git clone https://github.com/aidh-ms/weavehr-project-template
+    cd weavehr-project-template
     ```
 
 2. **Open the project in Visual Studio Code:**
@@ -32,10 +24,6 @@ This is a template for creating OpenICU projects. It includes a basic project st
     - Type `Remote-Containers: Reopen in Container` and select it.
     - VS Code will build the Docker container defined in the `.devcontainer` folder and open the project inside the container.
 
-## Documentation
+# TODOs
 
-Some documentation description
-
-### Additional features
-
-* [Dev Container Feature](https://containers.dev/features)
+1. change `DATA_FOLDER` in the [.env](./.devcontainer/.env) file of the .devcontainer

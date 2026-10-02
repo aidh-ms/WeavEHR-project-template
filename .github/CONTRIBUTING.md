@@ -10,8 +10,8 @@ Use the included dev container to automatically install all the necessary dev to
 
 1. **Clone the repository:**
     ```bash
-    git clone git+https://github.com/aidh-ms/openicu-project-template
-    cd openicu-project-template
+    git clone git+https://github.com/aidh-ms/weavehr-project-template
+    cd weavehr-project-template
     ```
 
 2. **Open the project in Visual Studio Code:**

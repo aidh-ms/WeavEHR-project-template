@@ -1,6 +1,6 @@
 {
 	"name": "Python 3.14 Project",
-	"service": "openicu",
+	"service": "weavehr",
 	"remoteUser": "vscode",
 	"workspaceFolder": "/workspaces",
 	"dockerComposeFile": "docker-compose.yml",

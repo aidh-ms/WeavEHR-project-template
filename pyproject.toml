@@ -1,6 +1,6 @@
 [project]
-name = "project_name"  # TODO
-description = "Template for openicu project"  # TODO
+name = "weavehr_project"  # TODO
+description = "Template for weavehr project"  # TODO
 version = "0.0.1"
 license = "MIT"  # TODO
 authors = [
@@ -18,15 +18,15 @@ classifiers = [
 ]
 requires-python = ">=3.14"
 dependencies = [
-    "open-icu>=0.0.4",
+    "weavehr>=0.0.1",
 ]
 
 [project.urls]
-homepage = "https://github.com/aidh-ms/openicu-project-template"  # TODO
-repository = "https://github.com/aidh-ms/openicu-project-template"  # TODO
-changelog = "https://github.com/aidh-ms/openicu-project-template/releases"  # TODO
-issues = "https://github.com/aidh-ms/openicu-project-template/issues"  # TODO
-documentation = "https://github.com/aidh-ms/openicu-project-template/wiki"  # TODO
+homepage = "https://github.com/aidh-ms/weavehr-project-template"  # TODO
+repository = "https://github.com/aidh-ms/weavehr-project-template"  # TODO
+changelog = "https://github.com/aidh-ms/weavehr-project-template/releases"  # TODO
+issues = "https://github.com/aidh-ms/weavehr-project-template/issues"  # TODO
+documentation = "https://github.com/aidh-ms/weavehr-project-template/wiki"  # TODO
 
 [build-system]
 requires = ["hatchling"]
@@ -41,4 +41,4 @@ dev = [
 
 [tool.uv]
 exclude-newer = "P7D"
-exclude-newer-package = { open-icu = false }
+exclude-newer-package = { weavehr = false }
