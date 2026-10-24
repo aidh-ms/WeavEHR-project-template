@@ -38,7 +38,3 @@ dev = [
     "ruff>=0.16.8",
     "ty>=0.0.83",
 ]
-
-[tool.uv]
-exclude-newer = "P7D"
-exclude-newer-package = { weavehr = false }
